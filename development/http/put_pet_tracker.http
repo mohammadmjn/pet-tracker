@@ -1,0 +1,10 @@
+### PUT pet
+PUT {{url}}/{{petId}}
+Content-Type: application/json
+
+{
+  "ownerId": 1,
+  "petType": "dog",
+  "trackerType": "MEDIUM",
+  "inZone": true
+}

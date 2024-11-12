@@ -1,0 +1,2 @@
+### GET pets outside of zone
+GET {{url}}/zone-info

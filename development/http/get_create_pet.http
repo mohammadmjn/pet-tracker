@@ -1,0 +1,26 @@
+### GET pets
+GET {{url}}
+
+
+### POST cat
+POST {{url}}
+Content-Type: application/json
+
+{
+  "ownerId": 1,
+  "petType": "cat",
+  "trackerType": "BIG",
+  "inZone": true,
+  "lostTracker": false
+}
+
+### POST dog
+POST {{url}}
+Content-Type: application/json
+
+{
+  "ownerId": 2,
+  "petType": "dog",
+  "trackerType": "SMALL",
+  "inZone": false
+}
